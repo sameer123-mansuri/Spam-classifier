@@ -7,6 +7,10 @@ from nltk.corpus import stopwords
 import nltk
 from nltk.stem.porter import PorterStemmer
 
+# NLTK's Python package does not include tokenizer/corpus data by default.
+nltk.download("punkt_tab", quiet=True)
+nltk.download("stopwords", quiet=True)
+
 ps = PorterStemmer()
 
 

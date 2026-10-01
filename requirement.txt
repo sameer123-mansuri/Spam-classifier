@@ -6,5 +6,4 @@ nltk
 matplotlib
 wordcloud
 xgboost
-pickle
-sklearn
+scikit-learn
